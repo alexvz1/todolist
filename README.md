@@ -35,3 +35,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ** HOST
 ### localhost:27017
+
+## Estructura Modelo
+<div class="highlight highlight-source-shell">
+  <pre>
+    {
+      title: String, 
+      description: String, 
+      dateAdded: Date,
+      status: Boolean
+    }
+  </pre>
+</div>
