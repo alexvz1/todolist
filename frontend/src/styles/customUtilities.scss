@@ -1,0 +1,43 @@
+.top-5 {
+    top:5px;
+}
+
+.top-10 {
+    top:10px;
+}
+
+.top-15 {
+    top:15px;
+}
+
+.top-20 {
+    top:20px;
+}
+
+.bg-green-100 {
+    background-color: $secondary;
+}
+
+.bg-green-500 {
+    background-color: $primary;
+}
+
+.bg-green-900 {
+    background-color: $dark;
+}
+
+.bg-red-100 {
+    background-color: $danger-light
+}
+
+.bg-red-500 {
+    background-color: $danger-medium;
+}
+
+.bg-red-900 {
+    background-color: $dark;
+}
+
+.rounded-2lg {
+    border-radius: 0.9rem;
+}

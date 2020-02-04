@@ -1,0 +1,36 @@
+/*----------------------------*\
+    $VARIABLES
+\*----------------------------*/
+
+// Color system
+
+$primaryColor: #009335;
+$secondaryColor: #48bb78;
+$secondaryColor: #48bb78;
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$green-100:   #48bb78 !default;
+$green-500:   #009335 !default;
+$green-900:   rgb(36,89,44) !default;
+
+$red-100:  rgb(245,101,101) !default;
+$red-500:  rgb(229,62,62) !default;
+$red-900:   rgb(202,13,13) !default;
+
+$primary:       $green-500 !default;
+$secondary:     $green-100 !default;
+$dark:          $green-900 !default;
+$danger:        $red-900   !default;
+$danger-medium: $red-500   !default;
+$danger-light:  $red-100   !default;

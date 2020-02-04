@@ -1,0 +1,95 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import './variables';
+@import './customUtilities.scss';
+@import './customComponents.scss';
+
+.tabs-list {
+    @apply flex;
+    @apply flex-wrap;
+    @apply flex-row;
+    @apply w-full;
+}
+
+.tab {
+    @apply flex-grow;
+    @apply border-b;
+    @apply border-green-500;
+}
+.tab-active {
+    @apply border-t; 
+    @apply border-l;
+    @apply border-r; 
+    @apply border-b-0;
+    @apply rounded-t-lg;
+}
+
+.tab-content {
+    @apply mx-10;
+    @apply hidden;
+} 
+
+.tab-content-active{
+    @apply block;
+}
+
+
+
+.tabs-list-mobile {
+    @apply flex;
+    @apply flex-wrap;
+    @apply flex-row;
+    @apply w-full;
+}
+
+.tab-mobile {
+    @apply flex-grow;
+    @apply bg-green-500;
+    @apply text-white;
+   
+}
+.tab-mobile-active {
+    @apply bg-green-900;
+    position: relative;
+	background: $dark;
+	border: 2px solid $dark;
+}
+
+.tab-mobile-active:after, .tab-mobile-active:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.tab-mobile-active:after {
+	border-color: rgba(0, 147, 53, 0);
+	border-top-color: $dark;
+	border-width: 5px;
+	margin-left: -5px;
+}
+.tab-mobile-active:before {
+	border-color: rgba(0, 147, 53, 0);
+	border-top-color: $dark;
+	border-width: 14px;
+	margin-left: -14px;
+}
+
+.tab-mobile-content {
+    @apply hidden;
+} 
+
+.tab-mobile-content-active{
+    @apply block;
+}
+
+
+
