@@ -1,4 +1,4 @@
-# todlist
+# Todo List
 Todo list with React, Express, MongoDB
 
 
