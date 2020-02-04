@@ -1,2 +1,37 @@
 # todlist
 Todo list with React, Express, MongoDB
+
+
+## Para ejecutar la aplicación Backend
+
+Moverse al directorio backend
+
+### `cd backend`
+
+Descargar paquetes y dependencias:
+
+### `npm install`
+
+Ejecutar la aplicación Backend en modo desarrollo .<br />
+Open [http://localhost:5001](http://localhost:5001) 
+
+
+## Para ejecutar la aplicación Frontend
+
+Moverse al directorio backend
+
+### `cd frontend`´
+
+Descargar paquetes y dependencias:
+
+### `npm install`
+
+Ejecutar la aplicación Frontend en modo desarrollo.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+** Importante tener servidor Mongo DB corriendo.<br />
+### MongoDB 4.2.3 Community
+
+** HOST
+### localhost:27017
