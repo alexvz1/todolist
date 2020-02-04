@@ -15,6 +15,7 @@ Descargar paquetes y dependencias:
 Ejecutar la aplicación Backend en modo desarrollo .<br />
 Open [http://localhost:5001](http://localhost:5001) 
 
+### `npm run dev`
 
 ## Para ejecutar la aplicación Frontend
 
@@ -29,6 +30,7 @@ Descargar paquetes y dependencias:
 Ejecutar la aplicación Frontend en modo desarrollo.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+### `npm run start`
 
 ** Importante tener servidor Mongo DB corriendo.<br />
 ### MongoDB 4.2.3 Community
